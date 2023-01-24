@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1bcc31f19c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagenes/LogoB.png" alt="logo de Alura">
+    </header>   
+    <main>
+        <section class="caja-texto">
+            <textarea  cols="30" rows="10" placeholder="Ingrese el texto aqui" class="textarea1" id="textarea1" autofocus></textarea>
+            <div>
+                <h1 class="informacion">Solo letras minúsculas y sin acentos</h1>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+
+            </div>
+        </section>
+
+        <section class="mensaje">
+            <div class="caja-imagen">
+                <img  src="/imagenes/Muñeco1.png" alt="Chica Pensando" class="chica">
+            </div>
+            <div class="caja-mensaje">
+                <h2 class="no-mensaje">Ningún mensaje fue encontrado</h2>
+                <h3 class="ingresa-texto">Ingresa el texto que deseas encriptar o desencriptar</h3>
+            </div>
+            <div class="caja-oculta">
+                <h4 class="claseh4 ocultar">Mensaje Encriptado</h4>
+                <textarea class="textarea2 ocultar" cols="30" rows="10" readonly></textarea>
+
+
+            </div>
+                 
+            <div class="copiar">
+                <button class="btn-copiar ocultar">Copiar</button>                  
+            </div>
+           
+        </section>
+
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p class="rodapie">Challenge N° 1 por Alejandro Torres - 2023</p>
+        
+    </footer>
+           
+    </body>

@@ -1,0 +1,196 @@
+*{  font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+body{
+  background: linear-gradient(200deg,red,black);
+}
+/*Seccion Encabezado*/
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+/* seccion lado izquierdo*/
+.caja-texto{
+    border: none;
+    color: black;
+    margin-top: 70px;
+    text-transform: lowercase;
+    
+}
+.textarea1{
+    background: local;
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+
+}
+ ::placeholder{
+    color: black;
+ }
+ .textarea:focus{
+    outline: none;
+ }
+ .informacion{
+    color: rgb(171, 164, 164);
+    font-size: 18px;
+}
+
+.informacion::before{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f06a";
+    padding-right: 0.5rem;
+}
+/* Botones Encriptar- Desencriptar*/
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+   background:rgb(181, 15, 15);
+   border: 1px solid black;
+   border-radius: 24px;
+   color: rgb(171, 164, 164);
+   cursor: pointer;
+   height: 67px;
+   width: 328px;
+   text-align: center;
+}
+.btn-encriptar:hover{
+    transform: scale(1.1);
+}
+
+.btn-desencriptar{
+    background:rgb(31, 28, 28);
+    border: 1px solid black;
+    border-radius: 24px;
+    color:  rgb(171, 164, 164);
+    cursor: pointer;
+    height: 67px;
+    text-align: center;
+    width: 328px;
+    margin-left: 25px;
+}
+
+.btn-desencriptar:hover{
+    transform: scale(1.1);
+}
+
+/* Lado derecho de la página*/
+.mensaje{
+    width: 30%;
+    margin: 20px auto;
+    padding-bottom: 40px;
+    float: right;
+    border-radius: 15px;
+    }
+.mensaje:focus{
+    outline: none;
+}
+.caja-imagen{
+    width: auto;
+    margin: auto;
+    text-align: center;
+
+}
+.chica{
+    width: 70%  ;
+    margin: auto;
+    padding: 30px 0;
+}
+.caja-mensaje{
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.no-mensaje{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: bold;
+    
+}
+.ingresa-texto{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*lado oculto*/
+.caja-oculta{
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+.claseh4{
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.textarea2{
+    background: local;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    border-radius: 30px;
+    font-size: 25px;
+    resize: none;
+    border: solid black;
+}
+.copiar{
+    width: auto;
+    margin: auto; 
+}
+.btn-copiar{
+    background: rgb(33, 24, 24);
+    border: 1px solid whitesmoke;
+    border-radius: 24px;
+    margin: 10px auto;
+    cursor: pointer;
+    height: 67px;
+    display: block;
+    width: 336px;
+    text-align: center; 
+    color:  rgb(171, 164, 164);
+}
+
+.btn-copiar:hover{
+   transform: scale(1.1);
+}
+
+
+.rodapie{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ocultar{
+    display: none;
+}
